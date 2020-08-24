@@ -1,4 +1,4 @@
-content-type: application/javascript;charset=utf-8
+content-type: text/jscript;charset=utf-8
 <script>
 	var canvas = document.getElementById("myCanvas");
 	var ctx = canvas.getContext("2d");

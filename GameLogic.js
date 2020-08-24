@@ -1,5 +1,3 @@
-content-type: text/jscript;charset=utf-8
-<script>
 	var canvas = document.getElementById("myCanvas");
 	var ctx = canvas.getContext("2d");
 	var ballRadius = 10;
@@ -160,4 +158,3 @@ content-type: text/jscript;charset=utf-8
 			requestAnimationFrame(draw);
 		}
 	draw();
-</script>

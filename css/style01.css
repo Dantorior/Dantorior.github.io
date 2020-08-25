@@ -19,7 +19,7 @@ img {vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-weight: inherit;font-size: inherit;}
 /*real code*/
 .main-screen {
-  background-image: url(img/Imgs/main.png);
+  background-image: src="img/Imgs/main.png";
   flex: 1 0 100%;
   position: relative;
   width: 100%;

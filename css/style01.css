@@ -850,7 +850,7 @@ p.text {
   }
 
   .brand-img {
-    object-fit: fill;
+    object-fit: cover;
   }
 
   .img-link {

@@ -70,7 +70,8 @@ ul, li {
 }
 
 img {
-  vertical-align: top;
+	vertical-align: top;
+	object-fit: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,7 +79,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
 }
 
-/*real !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! code*/
 .wrap {
   overflow: hidden;
   min-height: 100%;
@@ -147,7 +147,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-/* Meeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeenu */
 .menu-list {
   display: flex;
 }
@@ -629,7 +628,6 @@ p.text {
   height: 100%;
 }
 
-/*Animationssssssssssssssssssssssssssssssssssssssssssssssssssss*/
 .menu-btn>span,
 .menu-btn>span::before,
 .menu-btn>span::after {
@@ -644,7 +642,6 @@ p.text {
   transition-duration: .25s;
 }
 
-/*@media kicks iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiin*/
 @media (max-width:765px) {
   .header {
     top: 17px;

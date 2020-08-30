@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
-/*font-family: myriad-pro, sans-serif; font-style: normal; font-weight: 300; */
-/*nulLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLls*/
 * {
   padding: 0px;
   margin: 0px;
@@ -70,8 +68,8 @@ ul, li {
 }
 
 img {
-	vertical-align: top;
-	object-fit: none;
+  vertical-align: top;
+  object-fit: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -134,7 +132,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-img {
   width: 100%;
-  object-fit: cover;
   position: relative;
 }
 
@@ -292,6 +289,7 @@ section {
   position: relative;
   left: calc(50% - 120px);
   top: calc(50% - 86px);
+  z-index: 2;
 }
 
 .img-link {
@@ -416,12 +414,11 @@ section {
 }
 
 .bike-logo {
+  z-index: 2;
   display: block;
   position: absolute;
   left: calc(50% - 30px);
-  top: calc(50% - 51px);
-  scale: 1.1;
-  scroll-behavior: smooth;
+  top: calc(50% - 44px);
 }
 
 .shop .text {
@@ -431,11 +428,10 @@ section {
   letter-spacing: 2.8px;
   position: absolute;
   z-index: 1;
-  top: 45%;
-  left: 0;
-  right: 0;
-  margin: 0;
-  padding-top: 14px;
+  margin: 0 auto;
+  padding-top: 25%;
+  width: 100%;
+  height: 100%;
 }
 
 .shop .text::after {
@@ -455,6 +451,12 @@ section {
   display: block;
   position: relative;
   margin: 75px auto;
+}
+
+.btn:hover {
+  transition: 1.25s;
+  background-color: #64c29e;
+  border: 1px solid #fff;
 }
 
 p.dis {
@@ -498,9 +500,10 @@ p.dis {
   grid-area: ilink;
 }
 
-.img-link:hover {
+.shop .text:hover, .brand-img:hover, .ilink:hover, .img-link:hover {
   z-index: 2;
   background-color: #64c29e;
+  transition: 1.25s;
 }
 
 .brand-img:hover {
@@ -551,6 +554,15 @@ p.text {
   background-color: #64c29e;
   min-width: 126px;
   min-height: 69px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  color: #848789;
+  border: 1px solid #64c29e;
+  font-size: 26px;
 }
 
 .mail-block {
@@ -604,7 +616,7 @@ p.text {
 }
 
 .t_dev {
-  margin-top: revert;
+  margin-top: 10px;
 }
 
 .i_dev {
@@ -612,8 +624,7 @@ p.text {
 }
 
 .btn-shop {
-  width: 0;
-  height: 0;
+  display: block;
 }
 
 .social {
@@ -674,7 +685,7 @@ p.text {
   }
 
   li:nth-child(2), li:nth-child(3) {
-    padding: 0px 0px 39px 0px;
+    padding: 0px 0px 34px 0px;
   }
 
   li:nth-child(2)::after, li:nth-child(3)::after {
@@ -806,10 +817,6 @@ p.text {
     margin: 0px auto 80px auto;
   }
 
-  .brand-img {
-    object-fit: none;
-  }
-
   .columnA {
     flex: 0 1 50%;
   }
@@ -847,10 +854,9 @@ p.text {
     left: 0;
     top: 0;
     scale: 0.6;
-  }
-
-  .brand-img {
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10% 40%;
   }
 
   .img-link {
@@ -922,10 +928,12 @@ p.text {
   .mail-block {
     min-width: 100%;
   }
+
   .aod {
-  	margin-right: 6px;
+    margin-right: 6px;
   }
+
   .aod::after {
-	padding-left: 6px;
+    padding-left: 6px;
   }
 }

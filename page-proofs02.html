@@ -1,39 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="css/style02.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  </head>
-  <body>
-    <div class="wrap">
-      <header class="header">
-        <main class="page">
-          <div class="main-screen">
-            <img src="../main.png" alt="">
+
+<head>
+  <title>Shop template</title>
+  <link rel="stylesheet" href="css/style02.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="header">
+      <nav class="navbar">
+        <h1 class="shop"><a href="#" title="Shop name">Shop name</a></h1>
+        <div class="dropdw">
+          <button onclick="clickMenu(1)" class="dropbtn">CATEGORIES
+          </button>
+          <div id="dropdw1" class="dropdw-content">
+            <ul class="cat u_header">
+                <li><a href="#" title="Accessories">Accessories</a></li>
+                <li><a href="#" title="Alcohol">Alcohol</a></li>
+                <li><a href="#" title="Art">Art</a></li>
+                <li><a href="#" title="Books">Books</a></li>
+                <li><a href="#" title="Drink">Drink</a></li>
+                <li><a href="#" title="Electronics">Electronics</a></li>
+                <li><a href="#" title="Flowers & Plants">Flowers & Plants</a></li>
+                <li><a href="#" title="Food">Food</a></li>
+                <li><a href="#" title="Gadgets">Gadgets</a></li>
+                <li><a href="#" title="Garden">Garden</a></li>
+                <li><a href="#" title="Grocery">Grocery</a></li>
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="Jewelry">Jewelry</a></li>
+                <li><a href="#" title="Kids & Baby">Kids & Baby</a></li>
+                <li><a href="#" title="Men's Fashion">Men's Fashion</a></li>
+                <li><a href="#" title="Mobile">Mobile</a></li>
+                <li><a href="#" title="Motorcycles">Motorcycles</a></li>
+                <li><a href="#" title="Movies">Movies</a></li>
+                <li><a href="#" title="Music">Music</a></li>
+                <li><a href="#" title="Office">Office</a></li>
+                <li><a href="#" title="Pets">Pets</a></li>
+                <li><a href="#" title="Romantic">Romantic</a></li>
+                <li><a href="#" title="Sport">Sport</a></li>
+                <li><a href="#" title="Travel">Travel</a></li>
+                <li><a href="#" title="Toys">Toys</a></li>
+                <li><a href="#" title="Women's Fashion">Women's Fashion</a></li>
+              </ul>
           </div>
-          <div class="content">
-            <div class="header-row">
-              <a href="#" class="logo"></a>
-              <div class="header-menu">
-                <div class="menu-icon">
-                  <span></span>
-                </div>
-                <nav class="menu">
-                  <ul class="menu-list">
-                    <li><a href="#" class="menu-link"></a></li>
-                    <li><a href="#" class="menu-link"></a></li>
-                    <li><a href="#" class="menu-link"></a></li>
-                    <li><a href="#" class="menu-link"></a></li>
-                  </ul>
-                </nav>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        </div>
+        <a class="about" href="#ABOUT">ABOUT</a>
+        <a class="contact" href="#CONTACT">CONTACT</a>
+        <div class="dropdw">
+          <button onclick="clickMenu(2)" class="dropbtn lang">EN
+          </button>
+          <div id="dropdw2" class="dropdw-content">
+            <ul class="u_header">
+              <li><a href="#">RU</a></li>
+              <li><a href="#">ES</a></li>
+              <li><a href="#">UA</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdw">
+          <button onclick="clickMenu(3)" class="dropbtn currency">$ US
+          </button>
+          <div id="dropdw3" class="dropdw-content">
+            <ul class="u_header">
+              <li><a href="#">$ US</a></li>
+              <li><a href="#">€ EU</a></li>
+              <li><a href="#">₴ UA</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="icons">
+          <a href="#"><img class="icon" src="img/Logos/PUO_Situ_Herrera.svg" alt=""></a>
+          <a href="#"><img class="icon" src="img/Logos/SI_Designmodo.svg" alt=""></a>
+          <a href="#"><img class="icon" src="img/Logos/HORS_Freepik.svg" alt=""><span class="circle">1</span></a>
+          <a href="#"><img class="icon" src="img/Logos/BFS_SimpleIcon.svg" alt=""><span class="circle">3</span></a>
+        </div>
+      </nav>
+    </header>
+    <main class="page">
+      <div class="slideshow-container">
+        <div class="con-block fade">
+          <h2>Archi Desk Arvi Theme Pen Cup MoMA</h1>
+            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enimipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+            </p><a class="view" href="#">View More</a>
+        </div>
+        <div class="con-block fade">
+          <h2>Archi Desk Arvi Theme Pen Cup MoMA</h1>
+            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enimipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+            </p><a class="view" href="#">View More</a>
+        </div>
+        <div class="con-block fade">
+          <h2>Archi Desk Arvi Theme Pen Cup MoMA</h1>
+            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enimipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+            </p><a class="view" href="#">View More</a>
+        </div>
+        <div class="con-block fade">
+          <h2>Archi Desk Arvi Theme Pen Cup MoMA</h1>
+            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enimipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+            </p><a class="view" href="#">View More</a>
+        </div>
+        <div class="con-block fade">
+          <h2>Archi Desk Arvi Theme Pen Cup MoMA</h1>
+            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enimipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+            </p><a class="view" href="#">View More</a>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div style="text-align:center;margin-bottom: 40px;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+      <section class="big-block">
+        <div class="pop-block">
+          <h3>Popular item</h3>
+          <div class="flex-row">
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/1.svg" alt="">
+              <p class="dis">Arkys Chair - Orange</p>
+              <p class="price">$ 2195.00</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/2.svg" alt="">
+              <p class="dis">MONOQI | Ø55 Crossit Table - Wht/Grn</p>
+              <p class="price">$ 299.99</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/3.svg" alt="">
+              <p class="dis">Vitra Cork Stool B, Cork - Design Within Reach</p>
+              <p class="price">$ 870.95</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/4.svg" alt="">
+              <p class="dis">Activate Facial Mask and Charcoal Soap</p>
+              <p class="price">$ 129.55</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
               </div>
             </div>
           </div>
-        </main>
-      </header>
-    </div>
-  </body>
+        </div>
+        <div class="new-block">
+          <h3>New item</h3>
+          <div class="flex-row">
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/5.svg" alt="">
+              <p class="dis">Arkys Chair - Orange</p>
+              <p class="price">$ 2195.00</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/6.svg" alt="">
+              <p class="dis">MONOQI | Ø55 Crossit Table - Wht/Grn</p>
+              <p class="price">$ 299.99</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/7.svg" alt="">
+              <p class="dis">Vitra Cork Stool B, Cork - Design Within Reach</p>
+              <p class="price">$ 870.95</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/8.svg" alt="">
+              <p class="dis">Activate Facial Mask and Charcoal Soap</p>
+              <p class="price">$ 129.55</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="bg_baner">
+        <div class="baner">
+          <h4>Banner Arvi Theme</h4>
+          <p class="t_baner">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+            enimipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+        </div>
+      </div>
+      <section class="big-block">
+        <div class="pop-block">
+          <h3>Products</h3>
+          <div class="flex-row">
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/9.svg" alt="">
+              <p class="dis">Arkys Chair - Orange</p>
+              <p class="price">$ 2195.00</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/10.svg" alt="">
+              <p class="dis">MONOQI | Ø55 Crossit Table - Wht/Grn</p>
+              <p class="price">$ 299.99</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/11.svg" alt="">
+              <p class="dis">Vitra Cork Stool B, Cork - Design Within Reach</p>
+              <p class="price">$ 870.95</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/12.svg" alt="">
+              <p class="dis">Activate Facial Mask and Charcoal Soap</p>
+              <p class="price">$ 129.55</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/13.svg" alt="">
+              <p class="dis">Arkys Chair - Orange</p>
+              <p class="price">$ 2195.00</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/14.svg" alt="">
+              <p class="dis">MONOQI | Ø55 Crossit Table - Wht/Grn</p>
+              <p class="price">$ 299.99</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/15.svg" alt="">
+              <p class="dis">Vitra Cork Stool B, Cork - Design Within Reach</p>
+              <p class="price">$ 870.95</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="flex-column">
+              <img class="pic" src="img/Imgs/1.svg" alt="">
+              <p class="dis">Activate Facial Mask and Charcoal Soap</p>
+              <p class="price">$ 129.55</p>
+              <div class="plus">
+                <a href="#" title="Add to cart"><img class="i_plus" src="img/Logos/Plus.svg" alt=""></a>
+              </div>
+              <div class="heart">
+                <a href="#" title="Add to favorites"><img class="i_heart" src="img/Logos/Heart.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="vm_bg" title="View more">
+          <p class="vm inline">View more</p>
+          <p class="u inline">U</p>
+        </button>
+      </section>
+    </main>
+    <footer>
+      <section class="up">
+        <div class="flex-row">
+          <div class="block">
+            <img class="logos" src="img/Logos/DPOTFreepik.svg" alt="">
+            <div class="t_block">
+              <h5>Free Delivery</h5>
+              <p class="ban">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+            </div>
+          </div>
+          <div class="block">
+            <img class="logos" src="img/Logos/TASFRFreepik.svg" alt="">
+            <div class="t_block">
+              <h5>easy Returns</h5>
+              <p class="ban">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+            </div>
+          </div>
+          <div class="block">
+            <img class="logos" src="img/Logos/CVSFreepik.svg" alt="">
+            <div class="t_block">
+              <h5>wide choice</h5>
+              <p class="ban">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="dw">
+        <div class="flex-row">
+          <div class="autor">
+            <p>© 2014 Arvi Theme.</p>
+            <p class="inline">Made with love </p><a class="inline" href="">HezyTheme</a>
+          </div>
+          <div class="categories">
+            <h6>Categoriest</h6>
+            <ul class="cat">
+              <li><a href="#" title="Accessories">Accessories</a></li>
+              <li><a href="#" title="Alcohol">Alcohol</a></li>
+              <li><a href="#" title="Art">Art</a></li>
+              <li><a href="#" title="Books">Books</a></li>
+              <li><a href="#" title="Drink">Drink</a></li>
+              <li><a href="#" title="Electronics">Electronics</a></li>
+              <li><a href="#" title="Flowers & Plants">Flowers & Plants</a></li>
+              <li><a href="#" title="Food">Food</a></li>
+              <li><a href="#" title="Gadgets">Gadgets</a></li>
+              <li><a href="#" title="Garden">Garden</a></li>
+              <li><a href="#" title="Grocery">Grocery</a></li>
+              <li><a href="#" title="Home">Home</a></li>
+              <li><a href="#" title="Jewelry">Jewelry</a></li>
+              <li><a href="#" title="Kids & Baby">Kids & Baby</a></li>
+              <li><a href="#" title="Men's Fashion">Men's Fashion</a></li>
+              <li><a href="#" title="Mobile">Mobile</a></li>
+              <li><a href="#" title="Motorcycles">Motorcycles</a></li>
+              <li><a href="#" title="Movies">Movies</a></li>
+              <li><a href="#" title="Music">Music</a></li>
+              <li><a href="#" title="Office">Office</a></li>
+              <li><a href="#" title="Pets">Pets</a></li>
+              <li><a href="#" title="Romantic">Romantic</a></li>
+              <li><a href="#" title="Sport">Sport</a></li>
+              <li><a href="#" title="Travel">Travel</a></li>
+              <li><a href="#" title="Toys">Toys</a></li>
+              <li><a href="#" title="Women's Fashion">Women's Fashion</a></li>
+            </ul>
+          </div>
+          <div class="abut">
+            <h6>About</h6>
+            <ul class="cat">
+              <li><a href="#" title="About us">About us</a></li>
+              <li><a href="#" title="Delivery">Delivery</a></li>
+              <li><a href="#" title="Testimonials">Testimonials</a></li>
+              <li><a href="#" title="Contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="social">
+            <div class="flex-row">
+              <img class="margin" src="img/Social/f.svg" alt="">
+              <img class="margin" src="img/Social/g+.svg" alt="">
+              <img class="margin" src="img/Social/t.svg" alt="">
+              <img class="margin" src="img/Social/p.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </div>
+</body>
+<script src="js/slide.js"></script>
+<script src="js/clickMenu.js"></script>
 </html>

@@ -906,7 +906,7 @@ p.text {
   }
 
   .footer-row {
-    flex-direction: column;
+    flex-direction: row;
     padding: 20px 0;
   }
 
@@ -940,5 +940,8 @@ p.text {
 @media (max-width: 540px) {
   .brand-logo {
     padding: 10% 40%;
+  }
+  .footer-row {
+	  flex-direction: column;
   }
 }

@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  border-bottom: 2px solid #fff24;
+  border-bottom: 2px solid #ffffff24;
 }
 
 .shop {
@@ -304,7 +304,7 @@ h2 {
 }
 
 .view {
-  border: 2px solid #fff7d;
+  border: 2px solid #ffffff7d;
   color: #fff;
   border-radius: 25px;
   font-family: "Quicksand";

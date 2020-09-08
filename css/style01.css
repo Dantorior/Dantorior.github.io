@@ -194,7 +194,6 @@ li:nth-child(2)::after, li:last-child::after {
   opacity: 0;
 }
 
-/* sections */
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -426,7 +425,7 @@ section {
 }
 
 .shop .text {
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2.8px;
@@ -464,7 +463,7 @@ section {
 }
 
 p.dis {
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -541,7 +540,7 @@ p.text {
   min-width: 400px;
   min-height: 70px;
   border: 1px solid #d3d7d9;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #929292;
   font-size: 20px;
   line-height: 24px;
@@ -550,7 +549,7 @@ p.text {
 }
 
 .submit {
-  color: #ffffff;
+  color: #fff;
   font-size: 24px;
   font-weight: 300;
   line-height: 24px;

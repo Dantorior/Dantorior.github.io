@@ -376,7 +376,7 @@ section {
   margin-right: 9px;
 }
 
-.dot:active {
+.active {
   background-color: #a9afb3;
   border: none;
 }

@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'Sniglet';
-  src: url('fonts/Sniglet-Regular.eot');
+  src: url('../fonts/Sniglet-Regular.eot');
   src: local('☺'), url('../fonts/Sniglet-Regular.woff') format('woff'), url('../fonts/Sniglet-Regular.ttf') format('truetype'), url('../fonts/Sniglet-Regular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'Sniglet-ExtraBold';
-  src: url('fonts/Sniglet-ExtraBold.eot');
+  src: url('../fonts/Sniglet-ExtraBold.eot');
   src: local('☺'), url('../fonts/Sniglet-ExtraBold.woff') format('woff'), url('../fonts/Sniglet-ExtraBold.ttf') format('truetype'), url('../fonts/Sniglet-ExtraBold.svg') format('svg');
   font-weight: normal;
   font-style: normal;

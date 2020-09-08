@@ -93,10 +93,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
 }
 
-:root {
-  --v: 88.29vw;
-}
-
 .wrap {
   overflow: hidden;
   min-height: 100%;
@@ -360,7 +356,7 @@ h3 {
 
 .pic {
   height: 293px;
-  width: calc(var(--v) / 4);
+  width: 22.323vw;
   background-color: #cecece;
   margin-bottom: 14px;
   object-fit: cover;
@@ -697,7 +693,7 @@ li a {
   }
 
   .pic {
-    width: calc(var(--v));
+    width: 88.30vw;
   }
 
   .vm_bg {

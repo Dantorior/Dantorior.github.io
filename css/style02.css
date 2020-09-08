@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .dropdw .currency, .dropdw .lang {
   opacity: 0.5;
-  color: #ffffff;
+  color: #fff;
   font-family: "Quicksand";
   font-weight: bold;
   line-height: 24px;
@@ -250,11 +250,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  border-bottom: 2px solid #ffffff24;
+  border-bottom: 2px solid #fff24;
 }
 
 .shop {
-  color: #ffffff;
+  color: #fff;
   font-family: "Sniglet-ExtraBold";
   font-size: 30px;
   font-weight: bold;
@@ -304,7 +304,7 @@ h2 {
 }
 
 .view {
-  border: 2px solid #ffffff7d;
+  border: 2px solid #fff7d;
   color: #fff;
   border-radius: 25px;
   font-family: "Quicksand";
@@ -401,9 +401,10 @@ h4 {
 }
 
 h5 {
-  color: #ffffff;
-  font-family: "Quicksand Bold";
+  color: #fff;
+  font-family: "Quicksand";
   font-size: 18px;
+  font-weight: bold;
   line-height: 24px;
   text-transform: uppercase;
   text-align: left;
@@ -427,7 +428,7 @@ h5 {
 }
 
 .bg_baner {
-  background-color: #555555;
+  background-color: #555;
   padding: 20vh 10vw;
 }
 
@@ -444,12 +445,12 @@ h5 {
 }
 
 .vm {
-  color: #ffffff;
-  font-family: "Quicksand Bold";
+  color: #fff;
+  font-family: "Quicksand";
   font-size: 16px;
+  font-weight: bold;
   line-height: 15.6px;
   text-transform: uppercase;
-  vertical-align: -moz-middle-with-baseline;
 }
 
 .inline {
@@ -457,11 +458,9 @@ h5 {
 }
 
 .u {
-  color: #ffffff;
   font-family: "WSLR";
   font-size: 30px;
   line-height: 36px;
-  vertical-align: middle;
 }
 
 .up {
@@ -475,13 +474,14 @@ h5 {
 }
 
 .dw {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 56px;
 }
 
 .ban {
   color: #868380;
-  font-family: "Quicksand Bold";
+  font-family: "Quicksand";
+  font-weight: bold;
   line-height: 18px;
   text-align: left;
   overflow: hidden;
@@ -527,7 +527,7 @@ h5 {
 }
 
 h6 {
-  color: #333333;
+  color: #333;
   font-family: "Fredoka One";
   font-size: 13px;
   text-transform: uppercase;
@@ -585,7 +585,7 @@ li a {
   height: 8px;
   width: 8px;
   margin: 0 10px 0 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.5;
   border-radius: 50%;
   display: inline-block;
@@ -598,7 +598,7 @@ li a {
 
 .active, .dot:hover {
   background-color: transparent;
-  border: 3px solid #ffffff;
+  border: 3px solid #fff;
   height: 11px;
   width: 11px;
   opacity: 1;

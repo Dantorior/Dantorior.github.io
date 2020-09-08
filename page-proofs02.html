@@ -79,7 +79,17 @@
         </div>
       </nav>
     </header>
-    <main class="page">
+    <div class="sideNav">
+      <span class="navbtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div id="sideNav" class="sidenav">
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <a href="#">About</a>
+       <a href="#">Services</a>
+       <a href="#">Clients</a>
+       <a href="#">Contact</a>
+     </div>
+   </div>
+    <main id="main" class="page">
       <div class="slideshow-container">
         <div class="con-block fade">
           <h2>Archi Desk Arvi Theme Pen Cup MoMA</h1>
@@ -118,7 +128,7 @@
       </div>
       <section class="big-block">
         <div class="pop-block">
-          <h3>Popular item</h3>
+          <h3>Popular items</h3>
           <div class="flex-row">
             <div class="flex-column">
               <img class="pic" src="img/Imgs/1.svg" alt="">
@@ -167,7 +177,7 @@
           </div>
         </div>
         <div class="new-block">
-          <h3>New item</h3>
+          <h3>New items</h3>
           <div class="flex-row">
             <div class="flex-column">
               <img class="pic" src="img/Imgs/5.svg" alt="">
@@ -325,7 +335,7 @@
         </button>
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <section class="up">
         <div class="flex-row">
           <div class="block">
@@ -399,10 +409,10 @@
           </div>
           <div class="social">
             <div class="flex-row">
-              <a href="#"><img class="margin" src="img/Social/f.svg" alt=""></a>
-              <a href="#"><img class="margin" src="img/Social/g+.svg" alt=""></a>
-              <a href="#"><img class="margin" src="img/Social/t.svg" alt=""></a>
-              <a href="#"><img class="margin" src="img/Social/p.svg" alt=""></a>
+              <a href="#" class="margin"><img src="img/Social/f.svg" alt=""></a>
+              <a href="#" class="margin"><img src="img/Social/g+.svg" alt=""></a>
+              <a href="#" class="margin"><img src="img/Social/t.svg" alt=""></a>
+              <a href="#" class="margin"><img src="img/Social/p.svg" alt=""></a>
             </div>
           </div>
         </div>
@@ -410,6 +420,7 @@
     </footer>
   </div>
 </body>
-<script src="js/slide.js"></script>
-<script src="js/clickMenu.js"></script>
+  <script src="js/slide.js"></script>
+  <script src="js/clickMenu.js"></script>
+  <script src="js/sideNav.js"></script>
 </html>

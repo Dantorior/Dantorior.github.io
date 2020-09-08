@@ -63,6 +63,10 @@ a:hover {
   text-decoration: none;
 }
 
+p a {
+  color: #64c29e;
+}
+
 ul, li {
   list-style: none;
 }

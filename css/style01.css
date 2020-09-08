@@ -945,7 +945,8 @@ p.text {
   .brand-logo {
     padding: 10% 40%;
   }
+
   .footer-row {
-	  flex-direction: column;
+    flex-direction: column;
   }
 }

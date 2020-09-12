@@ -454,6 +454,8 @@ section {
   display: block;
   position: relative;
   margin: 75px auto;
+  padding: 30px;
+  color: #fff;
 }
 
 .btn:hover {

@@ -76,6 +76,7 @@ button::-moz-fokus-inner {
 
 a, a:visited {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {

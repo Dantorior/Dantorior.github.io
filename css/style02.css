@@ -356,7 +356,7 @@ h3 {
 
 .pic {
   height: 293px;
-  width: 22.323vw;
+  width: 100%;
   background-color: #cecece;
   margin-bottom: 14px;
   object-fit: cover;
@@ -589,7 +589,8 @@ li a {
 }
 
 .prev:hover, .next:hover {
-  background-color: #816fca;
+  background-color: #fff;
+  color: #816fca;
 }
 
 .active, .dot:hover {
@@ -632,7 +633,7 @@ li a {
     z-index: 5;
     top: 0;
     left: 0;
-    background-color: #816fca;
+    background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -642,13 +643,13 @@ li a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #f7ff00;
+    color: #2c3e50;
     display: block;
     transition: 0.3s;
   }
 
   .sidenav a:hover {
-    color: #000;
+    color: #816fca;
   }
 
   .sidenav .closebtn {
@@ -692,10 +693,6 @@ li a {
     margin: 0 0 0 35vw;
   }
 
-  .pic {
-    width: 88.30vw;
-  }
-
   .vm_bg {
     min-width: 40%;
   }
@@ -713,9 +710,11 @@ li a {
     padding: 0;
     flex-direction: column;
   }
+
   .autor {
     order: 1;
   }
+
   .cat {
     grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
   }
